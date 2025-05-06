@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Wrench, FileCheck, Gauge, Battery, Cpu, Tool } from 'lucide-react';
+import { Wrench, FileCheck, Gauge, Battery, Cpu, Settings } from 'lucide-react';
 
 const services = [
   {
@@ -29,7 +29,7 @@ const services = [
     description: 'Elektroninių automobilio komponentų remontas ir programinės įrangos atnaujinimai.'
   },
   {
-    icon: <Tool className="h-12 w-12 text-[#e63946] mb-4" />,
+    icon: <Settings className="h-12 w-12 text-[#e63946] mb-4" />,
     title: 'Ratų montavimas',
     description: 'Padangų keitimas, balansavimas ir ratų geometrijos reguliavimas.'
   }
